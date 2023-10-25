@@ -58,27 +58,22 @@ To run the application locally, follow these steps:
 
 1. Clone the repository:
    ```sh
-   git clone https://github.com/your-username/leftover-food-management.git
-   cd leftover-food-management
-Install the project dependencies:
+   git clone https://github.com/ajaydhaked/npo.git
+   cd npo
+2. Install the project dependencies:
+    ```sh
+    npm install
 
-sh
-Copy code
-npm install
-Configure environment variables (e.g., database connection) in a .env file.
+3. Start the application:
+        ```sh
+        npm start
+    Access the application in your web browser at http://localhost:4000.
 
-Start the application:
+3. Database Setup
+    The application uses MongoDB as the database. You should have a MongoDB instance running and provide the connection details in your .env file.
 
-sh
-Copy code
-npm start
-Access the application in your web browser at http://localhost:3000.
-
-Database Setup
-The application uses MongoDB as the database. You should have a MongoDB instance running and provide the connection details in your .env file.
-
-Example .env configuration:
+    Example .env configuration:
 
 env
-Copy code
-MONGO_URI=your-mongodb-connection-uri
+    ```sh
+    MONGO_URI=your-mongodb-connection-uri
