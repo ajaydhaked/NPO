@@ -1,9 +1,9 @@
 
-# Leftover Food Management Web Application
+# Social serving food delivery system
 
 ## Project Overview
 
-The Leftover Food Management Web Application is a web-based solution developed for a non-profit organization to efficiently track and manage leftover food from restaurants and hotels. The primary goal of this project is to reduce food wastage by redirecting excess food to NGOs, offering discounted rates to users, and facilitating voluntary donations.
+Social serving food delivery system is a web-based solution developed for a non-profit organization to efficiently track and manage leftover food from restaurants and hotels. The primary goal of this project is to reduce food wastage by redirecting excess food to NGOs, offering discounted rates to users, and facilitating voluntary donations.
 
 ## Table of Contents
 
