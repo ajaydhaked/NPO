@@ -73,7 +73,8 @@ To run the application locally, follow these steps:
 
     Example .env configuration:
 
-env
+    env
     ```sh
     MONGO_URI=your-mongodb-connection-uri
+    
 5. Access the application in your web browser at http://localhost:4000.
