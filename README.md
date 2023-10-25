@@ -65,11 +65,10 @@ To run the application locally, follow these steps:
     npm install
 
 3. Start the application:
-        ```sh
-        npm start
-    Access the application in your web browser at http://localhost:4000.
+    ```sh
+    npm start
 
-3. Database Setup
+4. Database Setup
     The application uses MongoDB as the database. You should have a MongoDB instance running and provide the connection details in your .env file.
 
     Example .env configuration:
@@ -77,3 +76,4 @@ To run the application locally, follow these steps:
 env
     ```sh
     MONGO_URI=your-mongodb-connection-uri
+5. Access the application in your web browser at http://localhost:4000.
