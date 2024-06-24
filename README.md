@@ -60,8 +60,8 @@ To run the application locally, follow these steps:
 
 1. Clone the repository:
    ```sh
-   git clone https://github.com/ajaydhaked/npo.git
-   cd npo
+   git clone git@github.com:ajaydhaked/social-serving-food-delivery-system.git
+   cd social-serving-food-delivery-system
 2. Install the project dependencies:
     ```sh
     npm install
