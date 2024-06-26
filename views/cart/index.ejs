@@ -99,7 +99,7 @@
         <div class="card-body">
           <% if(currentUser.roles !== 'NGO') {%>
           <a href="/cart/donation" class="btn btn-primary <%= money === 0?'disabled':''%>"  >Donate To NGO</a>
-          <button class="btn btn-primary" id="rzp-button2" <%= money === 0?'disabled':''%>>Self Pick-Up</button>
+          <button class="btn btn-primary" id="rzp-button2 <%= money === 0?'disabled':''%>">Self Pick-Up</button>
           <a href="/cart/pay/cod" class="btn btn-primary  <%= money === 0?'disabled':''%>">Payment: COD</a>
           <a href="/cart/pay/cod" class="btn btn-primary  <%= money === 0?'disabled':''%>">Payment: Online</a>
           <% } %>
