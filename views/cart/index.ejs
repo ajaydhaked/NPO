@@ -102,6 +102,10 @@
           <button class="btn btn-primary" id="rzp-button2 <%= money === 0?'disabled':''%>">Self Pick-Up</button>
           <a href="/cart/pay/cod" class="btn btn-primary  <%= money === 0?'disabled':''%>">Payment: COD</a>
           <a href="/cart/pay/cod" class="btn btn-primary  <%= money === 0?'disabled':''%>">Payment: Online</a>
+          <% } else{%>
+          <button class="btn btn-primary" id="rzp-button2 <%= money === 0?'disabled':''%>">Self Pick-Up</button>
+          <a href="/cart/pay/cod" class="btn btn-primary  <%= money === 0?'disabled':''%>">Payment: COD</a>
+          <a href="/cart/pay/cod" class="btn btn-primary  <%= money === 0?'disabled':''%>">Payment: Online</a>
           <% } %>
         </div>
       </div>
