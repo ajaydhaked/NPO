@@ -3,7 +3,7 @@
 
 ## Project Overview
 
-Social serving food delivery system is a web-based solution developed for a non-profit organization to efficiently track and manage leftover food from restaurants and hotels. The primary goal of this project is to reduce food wastage by redirecting excess food to NGOs, offering discounted rates to users, and facilitating voluntary donations.
+A social serving food delivery platform is a web-based solution designed for a non-profit organization. This platform allows customers to order food at discounted rates while simultaneously offering them the option to make voluntary donations to NGOs, supporting those in need
 
 **Currently hosted on [https://npo-lbiy.onrender.com/](https://npo-lbiy.onrender.com/).**
 
