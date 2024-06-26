@@ -19,7 +19,7 @@
         <% if(currentUser.roles === 'NGO'){ %>
             <li><a href="/donationhistory">Donation History</a></li>
         <% } %> <% if(currentUser.roles === 'restaurant') { %>
-            <li><a href="//restaurants/<%=currentUser._id%>">My Menu</a></li>
+            <li><a href="/restaurants/<%=currentUser._id%>">My Menu</a></li>
         <% } else { %>
             <li><a href="/cart">
                 <svg
